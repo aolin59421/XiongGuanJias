@@ -1,0 +1,22 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define IOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 //适配>ios7.0
+
+#define VIEW_FRAME_SIZE_WIDTH  [UIScreen mainScreen].bounds.size.width //获取当前设备屏幕宽度
+#define VIEW_FRAME_SIZE_HEIGHT [UIScreen mainScreen].bounds.size.height //获取当前设备屏幕高度
+
+#endif

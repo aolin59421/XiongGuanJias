@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="65" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="siR-wn-Bnb">
+                        <rect key="frame" x="15" y="0.0" width="290" height="65"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hbao.png" translatesAutoresizingMaskIntoConstraints="NO" id="jqi-wo-1pR">
+                                <rect key="frame" x="5" y="5" width="54" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="54" id="tYA-gG-cFO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="活动红包" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZH-bb-eno">
+                                <rect key="frame" x="70" y="15" width="200" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="VVW-8i-Bc4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="有效期至:2015.03.23 23:59:59" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyi-Jh-OOp">
+                                <rect key="frame" x="70" y="37" width="200" height="13"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.67503802544247793" green="0.67503802544247793" blue="0.67503802544247793" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PZH-bb-eno" firstAttribute="trailing" secondItem="gyi-Jh-OOp" secondAttribute="trailing" id="4Kh-qo-Adl"/>
+                            <constraint firstItem="gyi-Jh-OOp" firstAttribute="top" secondItem="PZH-bb-eno" secondAttribute="bottom" constant="14" id="5El-br-Coe"/>
+                            <constraint firstItem="jqi-wo-1pR" firstAttribute="leading" secondItem="siR-wn-Bnb" secondAttribute="leading" constant="5" id="BmY-oC-h0j"/>
+                            <constraint firstItem="jqi-wo-1pR" firstAttribute="centerY" secondItem="siR-wn-Bnb" secondAttribute="centerY" id="Qrv-Hc-DFw"/>
+                            <constraint firstItem="PZH-bb-eno" firstAttribute="leading" secondItem="jqi-wo-1pR" secondAttribute="trailing" constant="11" id="RRf-FC-vGV"/>
+                            <constraint firstAttribute="bottom" secondItem="gyi-Jh-OOp" secondAttribute="bottom" constant="10" id="Sen-Sn-T5d"/>
+                            <constraint firstItem="PZH-bb-eno" firstAttribute="top" secondItem="siR-wn-Bnb" secondAttribute="top" constant="15" id="Vsm-jz-w91"/>
+                            <constraint firstItem="jqi-wo-1pR" firstAttribute="top" secondItem="siR-wn-Bnb" secondAttribute="top" constant="5" id="vQk-V0-sGQ"/>
+                            <constraint firstAttribute="trailing" secondItem="PZH-bb-eno" secondAttribute="trailing" constant="20" id="vcc-vn-Loq"/>
+                            <constraint firstItem="PZH-bb-eno" firstAttribute="leading" secondItem="gyi-Jh-OOp" secondAttribute="leading" id="yC0-3X-Yd7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="siR-wn-Bnb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="NKk-JH-dGu"/>
+                    <constraint firstItem="siR-wn-Bnb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="caA-VU-Uh4"/>
+                    <constraint firstItem="siR-wn-Bnb" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="dJe-rZ-cdb"/>
+                    <constraint firstItem="siR-wn-Bnb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dpV-vj-YBr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="giftsImage" destination="jqi-wo-1pR" id="WSM-bg-lG0"/>
+                <outlet property="giftsLab" destination="PZH-bb-eno" id="FCi-ZS-ZLh"/>
+                <outlet property="timeLab" destination="gyi-Jh-OOp" id="Aux-fS-Gaf"/>
+                <outlet property="view" destination="siR-wn-Bnb" id="9FE-gw-V3z"/>
+            </connections>
+            <point key="canvasLocation" x="269.5" y="450.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hbao.png" width="110" height="110"/>
+    </resources>
+</document>

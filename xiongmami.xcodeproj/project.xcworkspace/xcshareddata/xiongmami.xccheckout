@@ -10,62 +10,31 @@
 	<string>xiongmami</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1A8C71C7-E33F-4F50-9889-CC92BFE839C1</key>
-		<string>https://192.168.5.162/svn/xiyi/iOS/trunk/CycleScrollView</string>
-		<key>D29A01C4-F4F3-474C-A510-DADBED310996</key>
-		<string>https://192.168.5.162/svn/xiyi/iOS/trunk</string>
+		<key>64BCB073E2CB94AC63739D5AFAEB1EAED8467D71</key>
+		<string>https://github.com/aolin59421/XiongGuanJias.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>xiongmami.xcodeproj/project.xcworkspace</string>
+	<string>xiongmami.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1A8C71C7-E33F-4F50-9889-CC92BFE839C1</key>
-		<string>../../xiongmami/CycleScrollView</string>
-		<key>D29A01C4-F4F3-474C-A510-DADBED310996</key>
+		<key>64BCB073E2CB94AC63739D5AFAEB1EAED8467D71</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>1A8C71C7-E33F-4F50-9889-CC92BFE839C1</key>
-		<string>https://192.168.5.162/svn/xiyi</string>
-		<key>D29A01C4-F4F3-474C-A510-DADBED310996</key>
-		<string>https://192.168.5.162/svn/xiyi</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://192.168.5.162/svn/xiyi/iOS/trunk/xiongmami.xcodeproj</string>
+	<string>https://github.com/aolin59421/XiongGuanJias.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D29A01C4-F4F3-474C-A510-DADBED310996</string>
+	<string>64BCB073E2CB94AC63739D5AFAEB1EAED8467D71</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>iOS/branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
-			<string>iOS/tags</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>iOS/trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1A8C71C7-E33F-4F50-9889-CC92BFE839C1</string>
+			<string>64BCB073E2CB94AC63739D5AFAEB1EAED8467D71</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CycleScrollView</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>iOS/branches</string>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
-			<string>iOS/tags</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>iOS/trunk</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D29A01C4-F4F3-474C-A510-DADBED310996</string>
-			<key>IDESourceControlWCCName</key>
-			<string>XiongGuanJia</string>
+			<string>XiongGuanJias</string>
 		</dict>
 	</array>
 </dict>
